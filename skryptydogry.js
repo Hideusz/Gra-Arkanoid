@@ -92,14 +92,13 @@ function Ball()
         //koniec gry
         if(BallY > PlayerY + BallR * 2)
         {
-           /* gameover = true;
+            gameover = true;
             // alert("Koniec gry!");
             ctx.fillStyle = "red";
             ctx.font = "italic bold 30px Arial";
             ctx.textAlign = "center";
             ctx.fillText("Koniec gry",canvas.width/2,canvas.height/2);
-            */
-            BallSpeedY = -BallSpeedY;
+            
         }
     }
         //tworzymy cegiełki w tablicy
